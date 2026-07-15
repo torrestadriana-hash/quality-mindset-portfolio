@@ -1,20 +1,14 @@
 <div align="center">
 
-<sub>
-
 # Quality Mindset Portfolio
 
 **Author:** Adriana Torres · Senior SDET / QA Automation Engineer
 
 [LinkedIn](https://www.linkedin.com/in/adriana-torres-834771132) · [GitHub Repository](https://github.com/torrestadriana-hash/quality-mindset-portfolio/tree/main)
 
-</sub>
 
 </div>
 
----
-
-<sub>
 
 ## About this project
 
@@ -30,11 +24,6 @@ It demonstrates, in a single codebase, the ability to:
 
 This project was built to show a hiring manager or technical recruiter how I think about **quality as a mindset**, not as an afterthought: maintainability, reusability, traceability and clear separation of concerns are treated as first-class requirements, exactly as they would be in a real product team.
 
-</sub>
-
----
-
-<sub>
 
 ## What this project proves to a recruiter
 
@@ -49,11 +38,6 @@ This project was built to show a hiring manager or technical recruiter how I thi
 | Build & dependency management with Gradle (Kotlin DSL) | `build.gradle`, `settings.gradle`, Gradle Wrapper |
 | Version control hygiene | `.gitignore`, structured Git history |
 
-</sub>
-
----
-
-<sub>
 
 ## 🎥 Execution Evidence
 
@@ -76,11 +60,6 @@ Screenshot of the generated **Serenity Single Page HTML Report**, showing test r
 
 > 💡 *Tip for recruiters:* you can also generate this report yourself locally by running `./gradlew test` — it will be created at `target/site/serenity/index.html`.
 
-</sub>
-
----
-
-<sub>
 
 ## Architecture
 
@@ -130,11 +109,6 @@ quality-mindset-portfolio/
 - **Single module, dual suite**: API and Web share the same `build.gradle`, the same `serenity.conf` and the same reporting pipeline, while staying fully decoupled at the package level (`com.test.suites.api` vs `com.test.suites.web`).
 - **Centralized configuration**: `serenity.conf` defines environments, WebDriver capabilities (headless toggle, Chrome flags, incognito, disabled password manager) and reporting format (`single-page-html`).
 
-</sub>
-
----
-
-<sub>
 
 ## 🧱 SOLID principles applied to test automation
 
@@ -147,11 +121,6 @@ quality-mindset-portfolio/
   - `Loggers.of(...)` removes repeated logger boilerplate across classes.
   - A single `LastApiResponse` ability replaces duplicated `SerenityRest` calls.
 
-</sub>
-
----
-
-<sub>
 
 ## ⚙️ Tech stack & versions
 
@@ -175,11 +144,6 @@ quality-mindset-portfolio/
 - Internet connection (for Gradle dependency resolution and WebDriverManager's first run).
 - No local Gradle installation needed — the project ships with the **Gradle Wrapper** (`gradlew` / `gradlew.bat`).
 
-</sub>
-
----
-
-<sub>
 
 ## 🚀 How to run the project
 
@@ -207,11 +171,6 @@ target/site/serenity/index.html
 > On Windows, replace `./gradlew` with `gradlew.bat`.
 > By default, `headless.mode = false` in `serenity.conf`, so the Chrome browser will open visibly during the Web suite — set it to `true` for CI/headless execution.
 
-</sub>
-
----
-
-<sub>
 
 ## 🧩 Test suites overview
 
@@ -229,11 +188,6 @@ target/site/serenity/index.html
 
 Both suites use **Gherkin feature files** as living documentation, making the scenarios understandable to QA, Dev and Product stakeholders alike.
 
-</sub>
-
----
-
-<sub>
 
 ## 💬 Why this matters for my next role
 
@@ -245,5 +199,3 @@ This project was built to show, in practice, the **mindset** I bring to a QA Eng
 - I'm comfortable owning a project **end-to-end**: from architecture decisions, to implementation, to CI-ready execution, to reporting.
 
 I'm currently open to **SDET / QA Automation Engineer** opportunities where this mindset can add value to a product team. Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/adriana-torres-834771132) or check more of my work on [GitHub](https://github.com/torrestadriana-hash/quality-mindset-portfolio/tree/main).
-
-</sub>
